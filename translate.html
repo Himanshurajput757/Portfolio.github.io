@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto;
+    position: relative;
+    
+}
+.box
+{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: red;
+    position: absolute;
+    border-radius: 50%;
+    top: 00px;
+    left: 00px;
+    animation-name: box;
+    animation-duration: 5s;
+}
+@keyframes box{
+    0%
+    {
+        top: 0px;
+        left:0px;
+        background: red;
+    }
+    25%
+    {
+        top: 0px;
+        left: 400px;
+        background: yellow;
+    }
+    50%
+    {
+        top: 400px;
+        left: 400px;
+        background: blue;
+    }
+    75%
+    {
+        top: 400px;
+        left: 0px;
+        background: grey;
+    }
+    100%
+    {
+        top: 0px;
+        left: 0px;
+        background: seagreen;
+    }
+}
+
+
+        /* .main
+        {
+            width: 200px;
+            height: 200px;
+            /* background-color: rgba(200,0,0,0.5); */
+        /* transform: translate(10px,10px); */
+        /* border: 2px solid black; */
+        /* margin: auto; */
+        /* margin-top: 100px; */
+        /* transform: skew(2turn,30deg); */
+        /* transform: rotate(0deg); */
+        /* } */
+        /* .main1
+         {
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            float: left;
+            text-align: center;
+            font-size: 2em;
+            position: fixed;
+            float: left;
+            left: 114px;
+            /* top: 100px;
+            left: 50px; */
+        /* }
+        .main2
+        {
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            float: left;
+            text-align: center;
+            font-size: 2em;
+        }
+        .main3
+        {
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            float: left;
+            text-align: center;
+            font-size: 2em;
+        } */ 
+    </style>
+</head>
+
+<body>
+    <!-- <div class="main1">1</div>
+    <div class="main2">2</div>
+    <div class="main3">3</div> -->
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
